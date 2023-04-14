@@ -31,22 +31,22 @@ with st.container():
     st.header("Projects")
     left_column, mid_column, right_column = st.columns(3)
     with left_column:
-        st.image('https://source.unsplash.com/480x240?architecture')
-        st.write("<strong style='font-size:1.5vw'>Project Zeus</strong><br/> <strong>2020</strong> <br /><small style='color: #9c9d9f'>Use statistical analysis to uncover patterns and insights in customer behavior data, enabling better targeting and personalization of marketing campaigns.</small>", unsafe_allow_html=True)
+        st.image('https://source.unsplash.com/480x240?architecture black and white')
+        st.write("<strong style='font-size:22px'>Project Zeus</strong><br/> <strong>2020</strong> <br /><small style='color: #9c9d9f'>Use statistical analysis to uncover patterns and insights in customer behavior data, enabling better targeting and personalization of marketing campaigns.</small>", unsafe_allow_html=True)
     with mid_column:
-        st.image('https://source.unsplash.com/480x240?mountain')
-        st.write("<strong style='font-size:1.5vw'>Project Athena</strong><br/> <strong>2021</strong> <br /><small style='color: #9c9d9f'>Build a model using historical stock data to predict future prices, allowing investors to make more informed trading decisions.</small>", unsafe_allow_html=True)
+        st.image('https://source.unsplash.com/480x240?mountain black and white')
+        st.write("<strong style='font-size:22px'>Project Athena</strong><br/> <strong>2021</strong> <br /><small style='color: #9c9d9f'>Build a model using historical stock data to predict future prices, allowing investors to make more informed trading decisions.</small>", unsafe_allow_html=True)
     with right_column:
-        st.image('https://source.unsplash.com/480x240?gadget')
-        st.write("<strong style='font-size:1.5vw'>Project Hades</strong><br/> <strong>2022</strong> <br /><small style='color: #9c9d9f'>Design and develop a user-friendly mobile application that allows users to set fitness goals, track progress, and receive personalized recommendations.</small>", unsafe_allow_html=True)
+        st.image('https://source.unsplash.com/480x240?gadget black and white')
+        st.write("<strong style='font-size:22px'>Project Hades</strong><br/> <strong>2022</strong> <br /><small style='color: #9c9d9f'>Design and develop a user-friendly mobile application that allows users to set fitness goals, track progress, and receive personalized recommendations.</small>", unsafe_allow_html=True)
     st.write("###")
     left_column, mid_column, right_column = st.columns(3)
     with left_column:
-        st.image('https://source.unsplash.com/480x240?forest')
-        st.write("<strong style='font-size:1.5vw'>Project Hermes</strong><br/> <strong>2023</strong> <br /><small style='color: #9c9d9f'>Develop algorithms to detect and flag transactions that deviate from typical patterns, reducing the risk of financial losses due to fraudulent activity.</small>", unsafe_allow_html=True)
+        st.image('https://source.unsplash.com/480x240?forest black and white')
+        st.write("<strong style='font-size:22px'>Project Hermes</strong><br/> <strong>2023</strong> <br /><small style='color: #9c9d9f'>Develop algorithms to detect and flag transactions that deviate from typical patterns, reducing the risk of financial losses due to fraudulent activity.</small>", unsafe_allow_html=True)
     with mid_column:
-        st.image('https://source.unsplash.com/480x240?sea')
-        st.write("<strong style='font-size:1.5vw'>Project Poseidon</strong><br/> <strong>2023</strong> <br /><small style='color: #9c9d9f'>Build a web platform that allows property owners to list their vacation rentals, and users to search and book rentals, while providing features for managing bookings and payments.</small>", unsafe_allow_html=True)
+        st.image('https://source.unsplash.com/480x240?sea black and white')
+        st.write("<strong style='font-size:22px'>Project Poseidon</strong><br/> <strong>2023</strong> <br /><small style='color: #9c9d9f'>Build a web platform that allows property owners to list their vacation rentals, and users to search and book rentals, while providing features for managing bookings and payments.</small>", unsafe_allow_html=True)
     with right_column:
         st.empty()
 
@@ -144,7 +144,7 @@ with st.container():
         <button type="submit">Send</button>
     </form>
     """
-    left_column, right_column = st.columns(2)
+    left_column, right_column = st.columns(0.65, 0.35)
     with left_column:
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
